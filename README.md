@@ -2,7 +2,7 @@
 
 I'm Shabbir Bepary, an IT support professional working towards cybersecurity. I am completing a Level 3 ICT apprenticeship through Solveway, with completion expected in December 2026.
 
-This portfolio documents my learning, evidence, investigation notes, troubleshooting and reflections. **The practical projects below are planned, not completed. No lab results or security qualifications are claimed.**
+This portfolio documents my learning, evidence, investigation notes, troubleshooting and reflections. **The first Windows event review is documented. Controlled lab testing and the remaining projects are planned. No security qualifications are claimed.**
 
 ## Background
 
@@ -12,7 +12,7 @@ My IT support experience includes Windows, Microsoft 365, device enrolment, prin
 
 | Project | Status | Intended evidence |
 | --- | --- | --- |
-| 01 - Investigating Windows login events | Planned | Sanitised event examples, investigation timeline, findings and limitations |
+| [01 - Investigating Windows login events](projects/01-windows-authentication-review/README.md) | Initial review completed; controlled test planned | Four sanitised screenshots, five-event timeline, findings and limitations |
 | 02 - Wazuh security monitoring lab | Planned | Lab diagram, endpoint connection, controlled test events and alert triage |
 | 03 - Vulnerability assessment and remediation | Planned | Authorised lab scan, prioritisation, remediation and rescan comparison |
 | 04 - Phishing investigation | Planned | Safe sample analysis, evidence and escalation report |
@@ -23,15 +23,11 @@ My IT support experience includes Windows, Microsoft 365, device enrolment, prin
 
 **Question:** What can login events tell me, and what additional evidence would I need before concluding that an account was compromised?
 
-Planned approach:
-1. Document a test environment and its audit settings.
-2. Find and interpret relevant login events.
-3. Generate controlled activity using a test account in an isolated lab.
-4. Compare expected activity with the recorded events.
-5. Build a timeline and distinguish observations from assumptions.
-6. Write an investigation report and explain when escalation would be appropriate.
+[Read the investigation report](projects/01-windows-authentication-review/README.md).
 
-Completion requires genuine, sanitised evidence and an explanation of the findings in my own words. A failed login alone does not establish compromise.
+I reviewed three failed authentications and two nearby SYSTEM service logons on my own Windows 11 device, exported the five events and verified the export. The review did not establish a connection between the failures and successes. The cause remains unconfirmed.
+
+A controlled test account exercise in an isolated lab is the next step; it has not yet been performed.
 
 ## How each project will be documented
 
@@ -52,3 +48,4 @@ AI assistance may help with planning and explanations; practical results will on
 ## Connect
 
 [LinkedIn](https://www.linkedin.com/in/shabbir-bepary-328919370/)
+

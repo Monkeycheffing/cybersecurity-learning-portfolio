@@ -92,4 +92,4 @@ My first thought was that someone had entered the wrong credentials and then suc
 - [Microsoft: Event 4625 and its fields](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4625)
 - [Microsoft: Event 4624 and logon types](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4624)
 
-AI assisted with explanations, documentation and redaction preparation. I performed the Event Viewer review and export on my own device. The screenshots are real evidence; text outside the redaction blocks has not been regenerated.
+I performed the Event Viewer review and export on my own device. The screenshots are real evidence; text outside the redaction blocks has not been regenerated.

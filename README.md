@@ -43,7 +43,7 @@ A controlled test account exercise in an isolated lab is the next step; it has n
 
 Exercises use systems I own or am authorised to test. Public evidence will be sanitised. Credentials, employer configurations, personal data and raw workplace logs do not belong in this repository. Simulated incidents will be labelled explicitly.
 
-AI assistance may help with planning and explanations; practical results will only be recorded after I perform and verify the work.
+Practical results are recorded after I perform and verify the work.
 
 ## Connect
 
